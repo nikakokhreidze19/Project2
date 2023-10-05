@@ -1,0 +1,118 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="Util.Screenshoter"/>
+    </listeners>
+    <test name="Regression1">
+        <groups>
+            <run>
+                <include name="before"/>
+                <include name="regression1" />
+                <include name="after"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.TestSwoop" />
+        </classes>
+    </test>
+    <test name="Regression2">
+        <groups>
+            <run>
+                <include name="before"/>
+                <include name="regression2" />
+                <include name="after"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.TestSwoop" />
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
